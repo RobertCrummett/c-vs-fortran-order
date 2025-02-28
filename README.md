@@ -1,4 +1,4 @@
-### Run the experiment
+### [Run the experiment](https://www.visitusers.org/index.php?title=C_vs_Fortran_memory_order)
 
 Compile the C function. This will get called from Fortran
 ```console
@@ -31,3 +31,10 @@ C iterates over the outermost index first, and works inward so to say.
 Fortran does the opposite.
 If you do not use (k,j,i) ordering to iterate over an array in Fortran, you will suffer the consequences of poor cache performance.
 The Fortran program above demonstrates proper (k,j,i) indexing.
+
+### Source
+
+Check out the article linked below.
+The author is the source of this experiement.
+Thank you for the great experiment.
+[https://www.visitusers.org/index.php?title=C_vs_Fortran_memory_order](https://www.visitusers.org/index.php?title=C_vs_Fortran_memory_order)
